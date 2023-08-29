@@ -1,4 +1,4 @@
-namespace whocares.Models
+namespace puppyPlayDates.Models
 {
     public class ErrorViewModel
     {
