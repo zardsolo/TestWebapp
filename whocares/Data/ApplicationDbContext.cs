@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace whocares.Data
+namespace puppyPlayDates.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -9,5 +9,6 @@ namespace whocares.Data
             : base(options)
         {
         }
+        
     }
 }

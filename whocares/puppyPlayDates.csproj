@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-whocares-6a6d67ad-4c4e-4460-aa6e-dd823e111fbd</UserSecretsId>
+    <UserSecretsId>aspnet-puppyPlayDates-6a6d67ad-4c4e-4460-aa6e-dd823e111fbd</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

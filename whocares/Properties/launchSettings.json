@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "whocares": {
+    "puppyPlayDates": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using whocares.Models;
+using puppyPlayDates.Models;
 
-namespace whocares.Controllers
+namespace puppyPlayDates.Controllers
 {
     public class HomeController : Controller
     {
@@ -18,7 +18,15 @@ namespace whocares.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Services()
+        {
+            return View();
+        }
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+        public IActionResult AboutUs()
         {
             return View();
         }
