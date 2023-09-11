@@ -17,11 +17,6 @@ namespace puppyPlayDates.Controllers
         {
             return View();
         }
-
-        public IActionResult Services()
-        {
-            return View();
-        }
         public IActionResult ContactUs()
         {
             return View();
@@ -30,7 +25,15 @@ namespace puppyPlayDates.Controllers
         {
             return View();
         }
-
+        public IActionResult ImagedUpload()
+        { 
+            return View();
+        }
+        public IActionResult OurServices()
+        {
+            return View();
+        
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
