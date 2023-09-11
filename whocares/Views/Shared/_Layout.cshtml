@@ -34,9 +34,26 @@
                         </li>
 
                     </ul>
+                    
+                    @* Dog or Cat Button *@
+                    <div class="btn-group">
+                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dogs or Cats?
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" id="dogSelect" href="#">Dog</a></li>
+                            <li><a class="dropdown-item" id="catSelect" href="#">Cat</a></li>
+                            <li><a class="dropdown-item" id="catDogSelect" href="#">Or Both</a></li>
+                        </ul>
+                    </div>
+
                     <partial name="_LoginPartial" />
+
                 </div>
             </div>
+
+
+
         </nav>
     </header>
     <div class="container">
@@ -45,7 +62,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted bg-white">
         <div class="container">
             &copy; 2023 - puppyPlayDates - <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
             <a asp-area="" asp-controller="Home" asp-action="ContactUs">Contact Us</a>
