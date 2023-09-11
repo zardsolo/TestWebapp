@@ -15,4 +15,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-size: cover;
+  background-position:center;
+  background-image: ;
 }
